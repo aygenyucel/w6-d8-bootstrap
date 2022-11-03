@@ -15,6 +15,9 @@ body {
   background-size: cover;
   background-blend-mode: darken;
 }
+.bg-dark-header {
+  background-color: #b58c66;
+}
 
 .destination {
   position: relative;
@@ -32,4 +35,11 @@ body {
 
 .destination:hover .destination-info {
   visibility: visible;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 15;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
